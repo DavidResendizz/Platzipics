@@ -11,7 +11,8 @@
     "package-mac": "electron-forge package --platform=darwin --arch=x64",
     "package-win": "electron-forge package --platform=win32 --arch=ia32",
     "package-linux": "electron-forge package --platform=linux --arch=x64",
-    "make": "electron-forge make"
+    "make": "electron-forge make",
+    "dist": "build"
   },
   "repository": {
     "type": "git",
