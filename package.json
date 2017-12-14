@@ -14,7 +14,13 @@
     "make": "electron-forge make",
     "dist": "build"
   },
-  "repository": {
+  "build": {
+    "appId": "io.snapcraft.quick-start",
+    "linux": {
+      "target": ["snap"]
+    }
+  },
+   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com:platzi/curso-electron.git"
   },
